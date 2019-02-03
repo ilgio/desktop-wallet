@@ -1,20 +1,22 @@
 exports.APP = {
-  website: 'https://ark.io',
+  website: 'https://kapu.one',
   transactionExpiryMinutes: 45
 }
 
 exports.NETWORKS = [
   require('./networks/mainnet.json'),
-  require('./networks/devnet.json')
+  require('./networks/devnet.json'),
+  require('./networks/mainnet_kapu.json')
 ]
 
 exports.PEERS = {
   'ark.mainnet': require('./peers/mainnet.json'),
-  'ark.devnet': require('./peers/devnet.json')
+  'ark.devnet': require('./peers/devnet.json'),
+  'kapu.mainnet': require('./peers/mainnet_kapu.json')
 }
 
 exports.ANNOUNCEMENTS = {
-  rssUrl: 'https://blog.ark.io/feed'
+  rssUrl: 'https://medium.com/feed/kapucoin'
 }
 
 exports.I18N = {
