@@ -2,7 +2,7 @@
   "id": "kapu.mainnet",
   "name": "KAPU Mainnet",
   "title": "KAPU Mainnet",
-  "server": "https://explorer.ark.io:8443",
+  "server": "https://api.kapu.one",
   "description": "The KAPU Mainnet should be chosen in most cases.",
   "imagePath": "networks/kapu.png",
   "apiVersion": 2,
